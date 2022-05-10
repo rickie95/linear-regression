@@ -1,5 +1,5 @@
-add_executable(test_linear_regression test_linear_regression.c)
+add_executable(linear_regression_test_app test_linear_regression.c)
 
-target_link_libraries(test_linear_regression src unity)
+add_test(NAME linear_regression COMMAND $<TARGET_FILE:linear_regression_test_app>)
 
-add_test(test_linear_regression)
+target_link_libraries(linear_regression_test_app LinearRegression Unity)

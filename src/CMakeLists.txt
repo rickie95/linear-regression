@@ -1,3 +1,3 @@
-add_library(LinearRegression linear_regression.c)
+add_library(LinearRegression STATIC linear_regression.c)
 
-target_include_directories(LinearRegression PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(LinearRegression PUBLIC ${CMAKE_CURRENT_LIST_DIR})
