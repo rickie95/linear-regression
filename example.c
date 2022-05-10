@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include <stdio.h>
 
-#include "linear_regression.h"
+#include <linear_regression.h>
 
 int main() {
     // Some example data

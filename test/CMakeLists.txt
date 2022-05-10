@@ -1,0 +1,5 @@
+add_executable(test_linear_regression test_linear_regression.c)
+
+target_link_libraries(test_linear_regression src unity)
+
+add_test(test_linear_regression)
